@@ -87,7 +87,7 @@ int main(int argc, char **argv){
   fmis1   = fopen("../Results/mis1.txt", "w+");
   fmis2   = fopen("../Results/mis2.txt", "w+");
 
-  fgenome = fopen("samplegenome.txt", "r"); // GENOME
+  fgenome = fopen("chr1.txt", "r"); // GENOME
   while (flaggenome){
     printf("Genome: %d...\n", absidxgen);
     igenome = -1;
@@ -107,7 +107,7 @@ int main(int argc, char **argv){
     nguides = 0;
     flagguides = true;
     absidxgui = 0; 
-    fguides = fopen("sampleguides.txt", "r"); // GUIDES
+    fguides = fopen("guides.txt", "r"); // GUIDES
     while (flagguides){
       printf("Guides: %d...\n", absidxgui);
       iguides = -1;

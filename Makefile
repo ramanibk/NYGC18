@@ -14,5 +14,5 @@ run.o: run.cu
 
 .PHONY: clean
 clean:
-	rm ./run
+	rm ./run run.o
 
